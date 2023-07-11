@@ -16,3 +16,19 @@ bots As screen:
         Y: =150
         ZIndex: =2
 
+    Image13 As image:
+        Height: =320
+        Image: ='Diseño sin título (2)-fotor-bg-remover-2023071195944'
+        Width: =320
+        X: =240
+        Y: =500
+        ZIndex: =3
+
+    Image14 As image:
+        Height: =629
+        Image: ='Diseño sin título (3)-fotor-bg-remover-20230711101021'
+        Width: =241
+        X: =76
+        Y: =346
+        ZIndex: =4
+
