@@ -15,7 +15,7 @@ sesion As screen:
         Size: =21
         Width: =560
         X: =40
-        Y: =521
+        Y: =504
         ZIndex: =2
 
     Label2 As label:
@@ -56,7 +56,7 @@ sesion As screen:
         Size: =21
         Width: =560
         X: =40
-        Y: =686
+        Y: =662
         ZIndex: =6
 
     Button3 As button:
@@ -72,10 +72,17 @@ sesion As screen:
         Y: =842
         ZIndex: =8
 
-    Image7 As image:
-        Height: =276
-        Image: ='NetSafe-fotor-bg-remover-202307119260'
-        Width: =640
-        Y: =30
+    Image18 As image:
+        Height: =199
+        Image: ='NetSafe-fotor-bg-remover-202307119260_3'
+        Width: =195
+        Y: =23
         ZIndex: =9
+
+    Rectangle12 As rectangle:
+        BorderThickness: =4
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =202
+        Width: =640
+        ZIndex: =10
 
