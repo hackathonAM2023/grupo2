@@ -1,0 +1,16 @@
+bots As screen:
+
+    Rectangle6_2 As rectangle:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        BorderThickness: =9
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =99
+        Width: =640
+        ZIndex: =1
+
+    Image12 As image:
+        Height: =871
+        Image: ='Diseño sin título (1)-fotor-bg-remover-2023071195714'
+        Width: =640
+        ZIndex: =2
+

@@ -1,0 +1,81 @@
+sesion As screen:
+    Fill: =RGBA(204, 231, 246, 1)
+
+    Label1 As label:
+        Height: =153
+        Size: =21
+        Text: =""
+        Width: =640
+        Y: =10
+        ZIndex: =1
+
+    TextInput1 As text:
+        Default: ="Text input"
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =521
+        ZIndex: =2
+
+    Label2 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =110
+        Size: =28
+        Text: ="LOG IN"
+        Underline: =true
+        Width: =263
+        X: =180
+        Y: =306
+        ZIndex: =3
+
+    Label3 As label:
+        Height: =70
+        Size: =21
+        Text: ="Name"
+        Underline: =true
+        Width: =560
+        X: =20
+        Y: =416
+        ZIndex: =4
+
+    Label3_1 As label:
+        Height: =70
+        Size: =21
+        Text: ="Last name"
+        Underline: =true
+        Width: =560
+        X: =20
+        Y: =592
+        ZIndex: =5
+
+    TextInput1_1 As text:
+        Default: ="Text input"
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =686
+        ZIndex: =6
+
+    Button3 As button:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Font: =Font.Georgia
+        Height: =70
+        Size: =24
+        Text: ="Sign in"
+        Underline: =true
+        Width: =280
+        X: =180
+        Y: =842
+        ZIndex: =8
+
+    Image7 As image:
+        Height: =276
+        Image: ='NetSafe-fotor-bg-remover-202307119260'
+        Width: =640
+        Y: =30
+        ZIndex: =9
+
