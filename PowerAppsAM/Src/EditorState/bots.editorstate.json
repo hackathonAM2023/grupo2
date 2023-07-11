@@ -68,7 +68,7 @@
       "StyleName": "defaultScreenStyle",
       "Type": "ControlInfo"
     },
-    "Image12": {
+    "Image2": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
@@ -95,14 +95,7 @@
         "HoverBorderColor",
         "FocusedBorderColor",
         "BorderStyle",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "DisplayMode",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "DisplayMode",
         "ZIndex",
         "RadiusTopLeft",
         "RadiusTopRight",
@@ -124,8 +117,8 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Image12",
-      "ParentIndex": 1,
+      "Name": "Image2",
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -327,7 +320,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle6_2",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
