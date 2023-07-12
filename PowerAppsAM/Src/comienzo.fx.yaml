@@ -1,13 +1,6 @@
 comienzo As screen:
     Fill: =RGBA(241, 244, 249, 1)
 
-    Image6 As image:
-        Height: =1136
-        Image: ='Diseño sin título'
-        ImagePosition: =ImagePosition.Fill
-        Width: =640
-        ZIndex: =1
-
     Rectangle6 As rectangle:
         BorderColor: =RGBA(127, 178, 57, 1)
         BorderThickness: =9
@@ -61,10 +54,19 @@ comienzo As screen:
 
     Image11 As image:
         Height: =139
-        Image: ='Imagen de WhatsApp 2023-07-11 a las 22.22.07.png-fotor-bg-remover-2023071272257'
+        Image: ='descarga (1)'
         Width: =144
+        X: =457
         Y: =137
         ZIndex: =8
+
+    Image5 As image:
+        Height: =320
+        Image: ='Proyecto nuevo (3)'
+        Width: =343
+        X: =114
+        Y: =46
+        ZIndex: =9
 
     Label4 As label:
         BorderThickness: =3
@@ -74,5 +76,16 @@ comienzo As screen:
         Width: =259
         X: =156
         Y: =170
-        ZIndex: =9
+        ZIndex: =10
+
+    Label12 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Lato Black'
+        Height: =59
+        Size: =50
+        Text: ="NetSafe"
+        Width: =356
+        X: =156
+        Y: =19
+        ZIndex: =11
 
