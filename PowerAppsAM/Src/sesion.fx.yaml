@@ -1,5 +1,13 @@
 sesion As screen:
-    Fill: =RGBA(204, 231, 246, 1)
+    Fill: =RGBA(0, 0, 0, 0)
+
+    Image1 As image:
+        Height: =1135
+        Image: ='Diseño sin título (1)'
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        Y: =1
+        ZIndex: =1
 
     Label1 As label:
         Height: =153
@@ -7,7 +15,7 @@ sesion As screen:
         Text: =""
         Width: =640
         Y: =10
-        ZIndex: =1
+        ZIndex: =3
 
     TextInput1 As text:
         Default: ="Text input"
@@ -16,10 +24,11 @@ sesion As screen:
         Width: =560
         X: =40
         Y: =504
-        ZIndex: =2
+        ZIndex: =4
 
     Label2 As label:
         Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Bold
         Height: =110
         Size: =28
@@ -28,9 +37,10 @@ sesion As screen:
         Width: =263
         X: =180
         Y: =306
-        ZIndex: =3
+        ZIndex: =5
 
     Label3 As label:
+        Color: =RGBA(255, 255, 255, 1)
         Height: =70
         Size: =21
         Text: ="Name"
@@ -38,9 +48,10 @@ sesion As screen:
         Width: =560
         X: =20
         Y: =416
-        ZIndex: =4
+        ZIndex: =6
 
     Label3_1 As label:
+        Color: =RGBA(255, 255, 255, 1)
         Height: =70
         Size: =21
         Text: ="Last name"
@@ -48,7 +59,7 @@ sesion As screen:
         Width: =560
         X: =20
         Y: =592
-        ZIndex: =5
+        ZIndex: =7
 
     TextInput1_1 As text:
         Default: ="Text input"
@@ -57,31 +68,45 @@ sesion As screen:
         Width: =560
         X: =40
         Y: =662
-        ZIndex: =6
-
-    Button3 As button:
-        Color: =RGBA(0, 0, 0, 1)
-        Fill: =RGBA(0, 0, 0, 0)
-        Font: =Font.Georgia
-        Height: =70
-        Size: =24
-        Text: ="Sign in"
-        Underline: =true
-        Width: =280
-        X: =180
-        Y: =842
         ZIndex: =8
 
     Image18 As image:
-        Height: =199
-        Image: ='Imagen de WhatsApp 2023-07-11 a las 22.22.07.png-fotor-bg-remover-2023071272257'
-        Width: =195
-        ZIndex: =9
-
-    Rectangle12 As rectangle:
-        BorderThickness: =4
-        Fill: =RGBA(0, 0, 0, 0)
-        Height: =202
-        Width: =640
+        Height: =179
+        Image: ='descarga (1)'
+        Width: =180
+        Y: =56
         ZIndex: =10
+
+    Image4 As image:
+        Height: =199
+        Image: ='Proyecto nuevo (1)_1'
+        Width: =460
+        X: =180
+        Y: =56
+        ZIndex: =11
+
+    Button1 As button:
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =70
+        PressedBorderColor: =
+        Size: =24
+        Text: ="Done"
+        Underline: =true
+        Width: =280
+        X: =171
+        Y: =780
+        ZIndex: =12
+
+    Label7 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Size: =21
+        Text: |-
+            ="BY: NetSafe"
+        Underline: =true
+        Width: =560
+        X: =31
+        Y: =1016
+        ZIndex: =13
 
