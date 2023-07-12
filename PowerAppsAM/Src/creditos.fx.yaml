@@ -1,6 +1,7 @@
-Screen12 As screen:
-    BackgroundImage: ='icons 2'
+creditos As screen:
+    BackgroundImage: ='Diseño sin título'
     Fill: =RGBA(102, 113, 166, 1)
+    ImagePosition: =ImagePosition.Fill
 
     Circle1_1 As circle:
         BorderColor: =RGBA(99, 139, 44, 1)
@@ -37,12 +38,12 @@ Screen12 As screen:
         Color: =RGBA(255, 255, 255, 1)
         Font: =Font.'Open Sans Condensed'
         FontWeight: =FontWeight.Bold
-        Height: =550
+        Height: =530
         Size: =25
         Text: ="This app was created with the purpose of recommending and helping people to avoid information theft through the internet. Giving tips of different types of antivirus depending on the planting of the problem."
-        Width: =617
-        X: =12
-        Y: =99
+        Width: =589
+        X: =25
+        Y: =241
         ZIndex: =6
 
     Label11 As label:
@@ -55,6 +56,23 @@ Screen12 As screen:
             ="By: NETSAFE"
         Width: =560
         X: =40
-        Y: =967
+        Y: =793
         ZIndex: =7
+
+    Rectangle6_9 As rectangle:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        BorderThickness: =9
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =99
+        Width: =640
+        ZIndex: =8
+
+    Rectangle6_10 As rectangle:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        BorderThickness: =9
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =99
+        Width: =640
+        Y: =1037
+        ZIndex: =9
 

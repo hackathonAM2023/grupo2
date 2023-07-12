@@ -172,3 +172,11 @@ bots As screen:
         Y: =7
         ZIndex: =20
 
+    Image3 As image:
+        Height: =261
+        Image: ='Proyecto nuevo (4)'
+        Width: =172
+        X: =10
+        Y: =518
+        ZIndex: =21
+

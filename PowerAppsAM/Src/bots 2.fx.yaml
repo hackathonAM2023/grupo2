@@ -27,7 +27,7 @@
 
     Image2_4 As image:
         Height: =188
-        Image: ='Proyecto nuevo'
+        Image: ='Proyecto nuevo (4)'
         Width: =120
         X: =505
         Y: =467
@@ -51,7 +51,7 @@
 
     Image2_7 As image:
         Height: =125
-        Image: ='Proyecto nuevo'
+        Image: ='Proyecto nuevo (4)'
         Width: =129
         X: =496
         Y: =314
@@ -59,7 +59,7 @@
 
     Image2_9 As image:
         Height: =125
-        Image: ='Proyecto nuevo'
+        Image: ='Proyecto nuevo (4)'
         Width: =129
         X: =496
         Y: =848
