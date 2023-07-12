@@ -52,14 +52,6 @@ bots As screen:
         Y: =341
         ZIndex: =7
 
-    Image2_2 As image:
-        Height: =206
-        Image: ='Proyecto nuevo'
-        Width: =161
-        X: =21
-        Y: =546
-        ZIndex: =8
-
     Image2_3 As image:
         Height: =201
         Image: ='Proyecto nuevo (1)'
