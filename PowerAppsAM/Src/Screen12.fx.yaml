@@ -1,2 +1,64 @@
 Screen12 As screen:
+    Fill: =RGBA(237, 237, 237, 1)
+
+    Rectangle6_3 As rectangle:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        BorderThickness: =9
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =99
+        Width: =640
+        ZIndex: =1
+
+    Circle1_1 As circle:
+        BorderColor: =RGBA(99, 139, 44, 1)
+        BorderThickness: =2
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =84
+        Width: =84
+        X: =545
+        Y: =7
+        ZIndex: =2
+
+    Image11_1 As image:
+        Height: =117
+        Image: ='Imagen de WhatsApp 2023-07-11 a las 22.22.07.png-fotor-bg-remover-2023071272257'
+        Width: =122
+        Y: =124
+        ZIndex: =3
+
+    Label8 As label:
+        Align: =Align.Center
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =30
+        Text: ="CRÉDITOS"
+        Width: =560
+        X: =40
+        Y: =14
+        ZIndex: =4
+
+    Label10 As label:
+        Align: =Align.Center
+        Font: =Font.'Open Sans Condensed'
+        FontWeight: =FontWeight.Bold
+        Height: =587
+        Size: =25
+        Text: ="Está app la creamos con fines de recomendar y ayudar a las personas para evitar el robo de información atraves de internet. Dando tips de diferentes tipos de antivirus dependiendo el plantenamiento del problema."
+        Width: =560
+        X: =56
+        Y: =124
+        ZIndex: =5
+
+    Label11 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =21
+        Text: |-
+            ="By: NETSAFE"
+        Width: =560
+        X: =56
+        Y: =740
+        ZIndex: =6
 
