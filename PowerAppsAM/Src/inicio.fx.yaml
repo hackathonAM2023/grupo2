@@ -1,13 +1,6 @@
 inicio As screen:
     Fill: =RGBA(3, 3, 41, 1)
 
-    Image3 As image:
-        Height: =1136
-        Image: ='Diseño sin título (1)'
-        ImagePosition: =ImagePosition.Fill
-        Width: =640
-        ZIndex: =1
-
     Image9 As image:
         Height: =428
         Image: ='descarga (1)'

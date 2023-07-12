@@ -16,15 +16,16 @@
         ZIndex: =2
 
     Label4_7 As label:
-        BorderColor: =RGBA(241, 244, 249, 1)
+        BorderColor: =RGBA(0, 0, 0, 0)
         BorderThickness: =3
         Color: =RGBA(255, 255, 255, 1)
-        Height: =44
+        Font: =Font.'Courier New'
+        Height: =52
         Size: =21
-        Text: ="Information theft"
-        Width: =428
-        X: =106
-        Y: =30
+        Text: ="Apps"
+        Width: =85
+        X: =50
+        Y: =135
         ZIndex: =4
 
     Icon10 As icon.Search:
@@ -35,4 +36,168 @@
         X: =29
         Y: =30
         ZIndex: =5
+
+    Icon5 As icon.Undo:
+        Color: =RGBA(241, 244, 249, 1)
+        Height: =49
+        Icon: =Icon.Undo
+        Width: =54
+        X: =566
+        Y: =30
+        ZIndex: =6
+
+    Label4_8 As label:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        BorderThickness: =3
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =99
+        Size: =21
+        Text: =""
+        Width: =124
+        X: =50
+        Y: =214
+        ZIndex: =7
+
+    Label4_9 As label:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        BorderThickness: =3
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =99
+        Size: =21
+        Text: =""
+        Width: =124
+        X: =50
+        Y: =346
+        ZIndex: =8
+
+    TextInput2 As text:
+        Default: ="Information theft"
+        Height: =50
+        Size: =21
+        Width: =460
+        X: =93
+        Y: =30
+        ZIndex: =11
+
+    Label4_12 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderThickness: =3
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Courier New'
+        Height: =77
+        Size: =21
+        Text: ="Tips"
+        Width: =105
+        X: =59
+        Y: =474
+        ZIndex: =12
+
+    Label4_14 As label:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        BorderThickness: =3
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =99
+        Size: =21
+        Text: =""
+        Width: =124
+        X: =261
+        Y: =346
+        ZIndex: =14
+
+    Label4_15 As label:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        BorderThickness: =3
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =99
+        Size: =21
+        Text: =""
+        Width: =124
+        X: =461
+        Y: =346
+        ZIndex: =15
+
+    Label4_16 As label:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        BorderThickness: =3
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =99
+        Size: =21
+        Text: =""
+        Width: =124
+        X: =461
+        Y: =214
+        ZIndex: =16
+
+    Label4_17 As label:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        BorderThickness: =3
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =99
+        Size: =21
+        Text: =""
+        Width: =124
+        X: =261
+        Y: =217
+        ZIndex: =17
+
+    Label4_13 As label:
+        BorderColor: =RGBA(252, 76, 235, 1)
+        BorderThickness: =3
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =135
+        Size: =21
+        Text: ="Use incognito mode so your passwords are not saved."
+        Width: =239
+        X: =346
+        Y: =581
+        ZIndex: =20
+
+    Label4_18 As label:
+        BorderColor: =RGBA(252, 76, 235, 1)
+        BorderThickness: =3
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =134
+        Size: =21
+        Text: ="Use strong passwords with uppercase, lowercase."
+        Width: =239
+        X: =50
+        Y: =581
+        ZIndex: =21
+
+    Label4_10 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderThickness: =3
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Courier New'
+        Height: =52
+        Size: =21
+        Text: ="Videos"
+        Width: =152
+        X: =59
+        Y: =783
+        ZIndex: =22
+
+    Label4_19 As label:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        BorderThickness: =3
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =125
+        Size: =21
+        Text: =""
+        Width: =211
+        X: =50
+        Y: =874
+        ZIndex: =23
+
+    Label4_20 As label:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        BorderThickness: =3
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =136
+        Size: =21
+        Text: =""
+        Width: =211
+        X: =342
+        Y: =874
+        ZIndex: =24
 

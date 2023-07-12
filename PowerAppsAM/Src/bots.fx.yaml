@@ -155,13 +155,6 @@ bots As screen:
         Y: =1037
         ZIndex: =18
 
-    Icon5 As icon.ChevronUp:
-        Color: =RGBA(255, 255, 255, 1)
-        Icon: =Icon.ChevronUp
-        X: =276
-        Y: =1054
-        ZIndex: =19
-
     Circle1_2 As circle:
         BorderColor: =RGBA(99, 139, 44, 1)
         BorderThickness: =2
@@ -171,4 +164,12 @@ bots As screen:
         X: =545
         Y: =7
         ZIndex: =20
+
+    Image3 As image:
+        Height: =261
+        Image: ='Proyecto nuevo (4)'
+        Width: =172
+        X: =10
+        Y: =518
+        ZIndex: =21
 

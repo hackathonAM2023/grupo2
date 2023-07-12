@@ -1,0 +1,22 @@
+creditos As screen:
+    BackgroundImage: ='Diseño sin título'
+    Fill: =RGBA(102, 113, 166, 1)
+    ImagePosition: =ImagePosition.Fill
+
+    Rectangle6_9 As rectangle:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        BorderThickness: =9
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =99
+        Width: =640
+        ZIndex: =8
+
+    Rectangle6_10 As rectangle:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        BorderThickness: =9
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =99
+        Width: =640
+        Y: =1037
+        ZIndex: =9
+
