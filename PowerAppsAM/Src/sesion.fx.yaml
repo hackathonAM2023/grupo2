@@ -89,6 +89,7 @@ sesion As screen:
     Button1 As button:
         Fill: =RGBA(0, 0, 0, 0)
         Height: =70
+        OnSelect: =Navigate(comienzo,ScreenTransition.Fade)
         PressedBorderColor: =
         Size: =24
         Text: ="Done"
