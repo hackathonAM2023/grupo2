@@ -1,19 +1,35 @@
 inicio As screen:
-    Fill: =RGBA(0, 0, 0, 1)
+    Fill: =RGBA(3, 3, 41, 1)
+
+    Image4 As image:
+        Height: =1136
+        Image: ='Diseño sin título'
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        ZIndex: =1
 
     Image3 As image:
-        Height: =233
+        Height: =205
         Image: ='logo-centrosuperate-300x158'
-        Width: =276
-        Y: =902
-        ZIndex: =3
+        Width: =208
+        X: =18
+        Y: =931
+        ZIndex: =2
 
     Image9 As image:
-        Height: =672
+        Height: =532
         Image: ='Imagen de WhatsApp 2023-07-11 a las 22.22.07.png-fotor-bg-remover-2023071272257'
         OnSelect: =
-        Width: =516
-        X: =64
-        Y: =246
+        Width: =401
+        X: =119
+        Y: =337
+        ZIndex: =3
+
+    Image1 As image:
+        Height: =177
+        Image: ='Proyecto nuevo'
+        Width: =568
+        X: =36
+        Y: =177
         ZIndex: =4
 
