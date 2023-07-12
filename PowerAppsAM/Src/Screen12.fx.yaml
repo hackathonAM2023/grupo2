@@ -2,14 +2,6 @@ Screen12 As screen:
     BackgroundImage: ='icons 2'
     Fill: =RGBA(102, 113, 166, 1)
 
-    Rectangle6_3 As rectangle:
-        BorderColor: =RGBA(127, 178, 57, 1)
-        BorderThickness: =9
-        Fill: =RGBA(0, 0, 0, 0)
-        Height: =99
-        Width: =640
-        ZIndex: =2
-
     Circle1_1 As circle:
         BorderColor: =RGBA(99, 139, 44, 1)
         BorderThickness: =2
@@ -65,20 +57,4 @@ Screen12 As screen:
         X: =40
         Y: =967
         ZIndex: =7
-
-    Rectangle6_4 As rectangle:
-        BorderColor: =RGBA(127, 178, 57, 1)
-        BorderThickness: =9
-        Fill: =RGBA(0, 0, 0, 0)
-        Height: =99
-        Width: =640
-        Y: =1037
-        ZIndex: =8
-
-    Icon4 As icon.ChevronDown:
-        Color: =RGBA(232, 244, 217, 1)
-        Icon: =Icon.ChevronDown
-        X: =288
-        Y: =1054
-        ZIndex: =9
 
