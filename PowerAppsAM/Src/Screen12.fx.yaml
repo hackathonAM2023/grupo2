@@ -2,6 +2,13 @@ Screen12 As screen:
     BackgroundImage: ='icons 2'
     Fill: =RGBA(102, 113, 166, 1)
 
+    Image3_1 As image:
+        Height: =1136
+        Image: ='Diseño sin título (1)'
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        ZIndex: =1
+
     Circle1_1 As circle:
         BorderColor: =RGBA(99, 139, 44, 1)
         BorderThickness: =2
@@ -10,14 +17,14 @@ Screen12 As screen:
         Width: =84
         X: =545
         Y: =7
-        ZIndex: =3
+        ZIndex: =2
 
     Image11_1 As image:
         Height: =117
         Image: ='Imagen de WhatsApp 2023-07-11 a las 22.22.07.png-fotor-bg-remover-2023071272257'
         Width: =122
         Y: =124
-        ZIndex: =4
+        ZIndex: =3
 
     Label8 As label:
         Align: =Align.Center
@@ -30,7 +37,7 @@ Screen12 As screen:
         Width: =560
         X: =40
         Y: =14
-        ZIndex: =5
+        ZIndex: =4
 
     Label10 As label:
         Align: =Align.Center
@@ -43,7 +50,7 @@ Screen12 As screen:
         Width: =617
         X: =12
         Y: =99
-        ZIndex: =6
+        ZIndex: =5
 
     Label11 As label:
         Align: =Align.Center
@@ -56,5 +63,13 @@ Screen12 As screen:
         Width: =560
         X: =40
         Y: =967
+        ZIndex: =6
+
+    Image7 As image:
+        Height: =70
+        Image: ='2919600'
+        Width: =70
+        X: =552
+        Y: =14
         ZIndex: =7
 
