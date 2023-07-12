@@ -1,28 +1,30 @@
 bots As screen:
+    BackgroundImage: ='Diseño sin título'
+    ImagePosition: =ImagePosition.Fill
 
     Rectangle2_3 As rectangle:
-        Fill: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(0, 0, 0, 0)
         Height: =201
         Width: =640
         Y: =767
         ZIndex: =1
 
     Rectangle2_2 As rectangle:
-        Fill: =RGBA(102, 102, 102, 1)
+        Fill: =RGBA(0, 0, 0, 0)
         Height: =211
         Width: =640
         Y: =556
         ZIndex: =2
 
     Rectangle2_1 As rectangle:
-        Fill: =RGBA(77, 77, 77, 1)
+        Fill: =RGBA(0, 0, 0, 0)
         Height: =225
         Width: =640
         Y: =331
         ZIndex: =3
 
     Rectangle2 As rectangle:
-        Fill: =RGBA(51, 51, 51, 1)
+        Fill: =RGBA(0, 0, 0, 0)
         Height: =237
         Width: =640
         Y: =99
@@ -69,6 +71,7 @@ bots As screen:
         ZIndex: =9
 
     Label5 As label:
+        Color: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =21
@@ -79,6 +82,7 @@ bots As screen:
         ZIndex: =10
 
     Label5_1 As label:
+        Color: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =21
@@ -89,6 +93,7 @@ bots As screen:
         ZIndex: =11
 
     Label5_2 As label:
+        Color: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Bold
         Height: =50
         Size: =21
@@ -99,6 +104,7 @@ bots As screen:
         ZIndex: =12
 
     Label5_3 As label:
+        Color: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Bold
         Height: =50
         Size: =21
@@ -109,6 +115,7 @@ bots As screen:
         ZIndex: =13
 
     Label6 As label:
+        Color: =RGBA(255, 255, 255, 1)
         Height: =70
         Size: =21
         Text: ="descripciòn "
@@ -118,6 +125,7 @@ bots As screen:
         ZIndex: =14
 
     Label6_1 As label:
+        Color: =RGBA(255, 255, 255, 1)
         Height: =70
         Size: =21
         Text: ="descripciòn "
@@ -127,6 +135,7 @@ bots As screen:
         ZIndex: =15
 
     Label6_2 As label:
+        Color: =RGBA(255, 255, 255, 1)
         Height: =70
         Size: =21
         Text: ="descripciòn "
@@ -136,11 +145,38 @@ bots As screen:
         ZIndex: =16
 
     Label6_3 As label:
+        Color: =RGBA(255, 255, 255, 1)
         Height: =70
         Size: =21
         Text: ="descripciòn "
         Width: =164
-        X: =204
+        X: =203
         Y: =850
         ZIndex: =17
+
+    Rectangle6_5 As rectangle:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        BorderThickness: =9
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =99
+        Width: =640
+        Y: =1037
+        ZIndex: =18
+
+    Icon5 As icon.ChevronUp:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.ChevronUp
+        X: =276
+        Y: =1054
+        ZIndex: =19
+
+    Circle1_2 As circle:
+        BorderColor: =RGBA(99, 139, 44, 1)
+        BorderThickness: =2
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =84
+        Width: =84
+        X: =545
+        Y: =7
+        ZIndex: =20
 
