@@ -1,17 +1,11 @@
 inicio As screen:
     Fill: =RGBA(3, 3, 41, 1)
 
-    Image4 As image:
-        Height: =1136
-        Image: ='Diseño sin título'
-        ImagePosition: =ImagePosition.Fill
-        Width: =640
-        ZIndex: =1
-
     Image9 As image:
         Height: =428
         Image: ='Imagen de WhatsApp 2023-07-11 a las 22.22.07.png-fotor-bg-remover-2023071272257'
-        OnSelect: =
+        OnSelect: |
+            =Navigate(sesion,ScreenTransition.Fade)
         Width: =337
         X: =152
         Y: =377
