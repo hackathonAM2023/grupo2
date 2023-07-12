@@ -74,9 +74,8 @@ sesion As screen:
 
     Image18 As image:
         Height: =199
-        Image: ='NetSafe-fotor-bg-remover-202307119260_3'
+        Image: ='Imagen de WhatsApp 2023-07-11 a las 22.22.07.png-fotor-bg-remover-2023071272257'
         Width: =195
-        Y: =23
         ZIndex: =9
 
     Rectangle12 As rectangle:

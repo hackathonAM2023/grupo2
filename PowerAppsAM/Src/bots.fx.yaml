@@ -1,34 +1,146 @@
 bots As screen:
 
+    Rectangle2_3 As rectangle:
+        Fill: =RGBA(128, 128, 128, 1)
+        Height: =201
+        Width: =640
+        Y: =767
+        ZIndex: =1
+
+    Rectangle2_2 As rectangle:
+        Fill: =RGBA(102, 102, 102, 1)
+        Height: =211
+        Width: =640
+        Y: =556
+        ZIndex: =2
+
+    Rectangle2_1 As rectangle:
+        Fill: =RGBA(77, 77, 77, 1)
+        Height: =225
+        Width: =640
+        Y: =331
+        ZIndex: =3
+
+    Rectangle2 As rectangle:
+        Fill: =RGBA(51, 51, 51, 1)
+        Height: =237
+        Width: =640
+        Y: =99
+        ZIndex: =4
+
     Rectangle6_2 As rectangle:
         BorderColor: =RGBA(127, 178, 57, 1)
         BorderThickness: =9
         Fill: =RGBA(0, 0, 0, 0)
         Height: =99
         Width: =640
-        ZIndex: =1
+        ZIndex: =5
 
     Image2 As image:
-        Height: =320
+        Height: =197
         Image: ='Diseño sin título (4)-fotor-bg-remover-20230711102240 (1)'
-        Width: =320
-        X: =14
-        Y: =150
-        ZIndex: =2
+        Width: =164
+        X: =21
+        Y: =116
+        ZIndex: =6
 
-    Image13 As image:
-        Height: =320
-        Image: ='Diseño sin título (2)-fotor-bg-remover-2023071195944'
-        Width: =320
-        X: =240
-        Y: =500
-        ZIndex: =3
+    Image2_1 As image:
+        Height: =205
+        Image: ='Diseño sin título (1)-fotor-bg-remover-2023071195714 (1)'
+        Width: =164
+        X: =22
+        Y: =341
+        ZIndex: =7
 
-    Image14 As image:
-        Height: =629
-        Image: ='Diseño sin título (3)-fotor-bg-remover-20230711101021'
-        Width: =241
-        X: =76
-        Y: =346
-        ZIndex: =4
+    Image2_2 As image:
+        Height: =206
+        Image: ='Proyecto nuevo'
+        Width: =161
+        X: =21
+        Y: =546
+        ZIndex: =8
+
+    Image2_3 As image:
+        Height: =201
+        Image: ='Proyecto nuevo (1)'
+        Width: =162
+        X: =20
+        Y: =767
+        ZIndex: =9
+
+    Label5 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =21
+        Text: ="Bot 1"
+        Width: =85
+        X: =204
+        Y: =139
+        ZIndex: =10
+
+    Label5_1 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =21
+        Text: ="Bot 2"
+        Width: =85
+        X: =204
+        Y: =366
+        ZIndex: =11
+
+    Label5_2 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =50
+        Size: =21
+        Text: ="Bot 3"
+        Width: =85
+        X: =203
+        Y: =593
+        ZIndex: =12
+
+    Label5_3 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =50
+        Size: =21
+        Text: ="Bot 4"
+        Width: =85
+        X: =204
+        Y: =800
+        ZIndex: =13
+
+    Label6 As label:
+        Height: =70
+        Size: =21
+        Text: ="descripciòn "
+        Width: =164
+        X: =204
+        Y: =191
+        ZIndex: =14
+
+    Label6_1 As label:
+        Height: =70
+        Size: =21
+        Text: ="descripciòn "
+        Width: =164
+        X: =203
+        Y: =414
+        ZIndex: =15
+
+    Label6_2 As label:
+        Height: =70
+        Size: =21
+        Text: ="descripciòn "
+        Width: =164
+        X: =203
+        Y: =626
+        ZIndex: =16
+
+    Label6_3 As label:
+        Height: =70
+        Size: =21
+        Text: ="descripciòn "
+        Width: =164
+        X: =204
+        Y: =850
+        ZIndex: =17
 

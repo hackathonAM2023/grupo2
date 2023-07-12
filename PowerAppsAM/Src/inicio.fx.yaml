@@ -1,5 +1,5 @@
 inicio As screen:
-    Fill: =RGBA(204, 231, 246, 1)
+    Fill: =RGBA(0, 0, 0, 1)
 
     Image3 As image:
         Height: =233
@@ -9,9 +9,11 @@ inicio As screen:
         ZIndex: =3
 
     Image9 As image:
-        Height: =1136
-        Image: ='NetSafe-fotor-bg-remover-202307119260_1'
+        Height: =672
+        Image: ='Imagen de WhatsApp 2023-07-11 a las 22.22.07.png-fotor-bg-remover-2023071272257'
         OnSelect: =
-        Width: =640
+        Width: =516
+        X: =64
+        Y: =246
         ZIndex: =4
 
