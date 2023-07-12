@@ -3,13 +3,13 @@ inicio As screen:
 
     Image9 As image:
         Height: =428
-        Image: ='Imagen de WhatsApp 2023-07-11 a las 22.22.07.png-fotor-bg-remover-2023071272257'
+        Image: ='descarga (1)'
         OnSelect: |
             =Navigate(sesion,ScreenTransition.Fade)
         Width: =337
         X: =152
         Y: =377
-        ZIndex: =3
+        ZIndex: =2
 
     Label9 As label:
         Align: =Align.Center
@@ -21,5 +21,5 @@ inicio As screen:
         Width: =444
         X: =98
         Y: =208
-        ZIndex: =4
+        ZIndex: =3
 
