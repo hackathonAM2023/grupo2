@@ -1,78 +1,38 @@
 "Screen9 As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
 
-    RectQuickActionBar5 As rectangle:
-        Height: =88
-        Width: =Parent.Width
+    Image6_1 As image:
+        Height: =1136
+        Image: ='Diseño sin título'
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
         ZIndex: =1
 
-    Canvas1 As fluidGrid.fluidGridWithBlankCard:
-        BorderThickness: =0
-        Height: =Parent.Height - Self.Y
-        Width: =Parent.Width
-        Y: =RectQuickActionBar5.Y + RectQuickActionBar5.Height
-        ZIndex: =3
+    Rectangle6_8 As rectangle:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        BorderThickness: =9
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =99
+        Width: =640
+        ZIndex: =2
 
-        DataCard1 As dataCard:
-            BorderColor: =RGBA(0, 0, 0, 1)
-            BorderStyle: =BorderStyle.Solid
-            BorderThickness: =0
-            DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =Parent.Height - 100
-            Width: =Parent.Width
-            X: =0
-            Y: =0
-            ZIndex: =1
-
-    "Gallery3 As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver5.0'":
-        DelayItemLoading: =true
-        Items: =CustomGallerySample
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplatePadding: =0
-        TemplateSize: =Min(440, Self.Height - 60)
-        Y: =40
+    Label4_7 As label:
+        BorderColor: =RGBA(241, 244, 249, 1)
+        BorderThickness: =3
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =44
+        Size: =21
+        Text: ="Information theft"
+        Width: =428
+        X: =106
+        Y: =30
         ZIndex: =4
 
-        Image17 As image:
-            Height: =230
-            ImagePosition: =ImagePosition.Fill
-            OnSelect: =Select(Parent)
-            RadiusBottomLeft: =8
-            RadiusBottomRight: =8
-            RadiusTopLeft: =8
-            RadiusTopRight: =8
-            Width: =346
-            X: =7
-            Y: =195
-            ZIndex: =1
-
-        Title9 As label:
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.SampleHeading
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 64
-            X: =32
-            Y: =Image17.Y + Image17.Height + 16
-            ZIndex: =2
-
-        Subtitle6 As label:
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.SampleText
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title9.Width
-            X: =Title9.X
-            Y: =Title9.Y + Title9.Height + 8
-            ZIndex: =3
+    Icon10 As icon.Search:
+        Color: =RGBA(241, 244, 249, 1)
+        Height: =50
+        Icon: =Icon.Search
+        Width: =52
+        X: =29
+        Y: =30
+        ZIndex: =5
 
