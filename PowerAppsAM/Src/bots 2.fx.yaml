@@ -25,14 +25,6 @@
         Y: =1024
         ZIndex: =3
 
-    Image2_4 As image:
-        Height: =188
-        Image: ='Proyecto nuevo (4)'
-        Width: =120
-        X: =505
-        Y: =467
-        ZIndex: =4
-
     Image2_5 As image:
         Height: =126
         Image: ='Diseño sin título (4)-fotor-bg-remover-20230711102240 (1)'
@@ -50,20 +42,12 @@
         ZIndex: =6
 
     Image2_7 As image:
-        Height: =125
+        Height: =105
         Image: ='Proyecto nuevo (4)'
         Width: =129
         X: =496
-        Y: =314
+        Y: =316
         ZIndex: =7
-
-    Image2_9 As image:
-        Height: =125
-        Image: ='Proyecto nuevo (4)'
-        Width: =129
-        X: =496
-        Y: =848
-        ZIndex: =8
 
     Label4_1 As label:
         BorderColor: =RGBA(252, 76, 235, 1)
@@ -189,4 +173,20 @@
         X: =41
         Y: =1050
         ZIndex: =21
+
+    Image2_8 As image:
+        Height: =105
+        Image: ='2919600'
+        Width: =129
+        X: =496
+        Y: =505
+        ZIndex: =22
+
+    Image2_9 As image:
+        Height: =105
+        Image: ='Proyecto nuevo (4)'
+        Width: =129
+        X: =496
+        Y: =858
+        ZIndex: =23
 
