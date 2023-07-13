@@ -33,7 +33,7 @@
         Height: =50
         Icon: =Icon.Search
         Width: =52
-        X: =569
+        X: =25
         Y: =30
         ZIndex: =5
 
@@ -43,8 +43,8 @@
         Icon: =Icon.Undo
         OnSelect: =Navigate(comienzo,ScreenTransition.Fade)
         Width: =54
-        X: =19
-        Y: =25
+        X: =568
+        Y: =31
         ZIndex: =6
 
     Label4_8 As label:

@@ -16,29 +16,6 @@ comienzo As screen:
         Width: =640
         ZIndex: =2
 
-    Rectangle6_1 As rectangle:
-        BorderColor: =RGBA(127, 178, 57, 1)
-        BorderThickness: =9
-        Fill: =RGBA(0, 0, 0, 0)
-        Height: =99
-        Width: =640
-        Y: =1037
-        ZIndex: =3
-
-    Icon1 As icon.Search:
-        Color: =RGBA(56, 96, 178, 1)
-        Icon: =Icon.Search
-        X: =196
-        Y: =1054
-        ZIndex: =4
-
-    Icon2 As icon.Message:
-        Color: =RGBA(56, 96, 178, 1)
-        Icon: =Icon.Message
-        X: =369
-        Y: =1054
-        ZIndex: =5
-
     Circle1 As circle:
         BorderColor: =RGBA(99, 139, 44, 1)
         BorderThickness: =2
@@ -99,4 +76,22 @@ comienzo As screen:
         Width: =446
         X: =86
         ZIndex: =13
+
+    Image10 As image:
+        Height: =320
+        Image: ='Proyecto nuevo_1'
+        OnSelect: =Navigate(bots,ScreenTransition.Fade)
+        Width: =320
+        X: =160
+        Y: =342
+        ZIndex: =14
+
+    Image10_1 As image:
+        Height: =320
+        Image: ='Proyecto nuevo (2)_1'
+        OnSelect: =Navigate(manual,ScreenTransition.Fade)
+        Width: =320
+        X: =160
+        Y: =596
+        ZIndex: =15
 
