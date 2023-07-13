@@ -26,7 +26,7 @@
         Width: =85
         X: =50
         Y: =135
-        ZIndex: =4
+        ZIndex: =3
 
     Icon10 As icon.Search:
         Color: =RGBA(241, 244, 249, 1)
@@ -35,7 +35,7 @@
         Width: =52
         X: =25
         Y: =30
-        ZIndex: =5
+        ZIndex: =4
 
     Icon5 As icon.Undo:
         Color: =RGBA(241, 244, 249, 1)
@@ -45,19 +45,19 @@
         Width: =54
         X: =568
         Y: =31
-        ZIndex: =6
+        ZIndex: =5
 
     Label4_8 As label:
         BorderColor: =RGBA(127, 178, 57, 1)
         BorderThickness: =3
         Color: =RGBA(255, 255, 255, 1)
-        Height: =99
+        Height: =97
         Size: =21
         Text: =""
-        Width: =105
-        X: =59
+        Width: =98
+        X: =62
         Y: =214
-        ZIndex: =7
+        ZIndex: =6
 
     Label4_9 As label:
         BorderColor: =RGBA(127, 178, 57, 1)
@@ -66,10 +66,10 @@
         Height: =99
         Size: =21
         Text: =""
-        Width: =124
-        X: =50
+        Width: =101
+        X: =59
         Y: =346
-        ZIndex: =8
+        ZIndex: =7
 
     TextInput2 As text:
         Default: ="Information theft"
@@ -78,7 +78,7 @@
         Width: =460
         X: =93
         Y: =30
-        ZIndex: =11
+        ZIndex: =8
 
     Label4_12 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -91,7 +91,7 @@
         Width: =105
         X: =59
         Y: =474
-        ZIndex: =12
+        ZIndex: =9
 
     Label4_14 As label:
         BorderColor: =RGBA(127, 178, 57, 1)
@@ -103,7 +103,7 @@
         Width: =124
         X: =261
         Y: =346
-        ZIndex: =14
+        ZIndex: =10
 
     Label4_15 As label:
         BorderColor: =RGBA(127, 178, 57, 1)
@@ -115,7 +115,7 @@
         Width: =124
         X: =461
         Y: =346
-        ZIndex: =15
+        ZIndex: =11
 
     Label4_16 As label:
         BorderColor: =RGBA(127, 178, 57, 1)
@@ -127,7 +127,7 @@
         Width: =124
         X: =461
         Y: =214
-        ZIndex: =16
+        ZIndex: =12
 
     Label4_13 As label:
         Align: =Align.Center
@@ -140,7 +140,7 @@
         Width: =239
         X: =346
         Y: =581
-        ZIndex: =20
+        ZIndex: =13
 
     Label4_18 As label:
         Align: =Align.Center
@@ -153,7 +153,7 @@
         Width: =239
         X: =50
         Y: =581
-        ZIndex: =21
+        ZIndex: =14
 
     Label4_10 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -166,31 +166,7 @@
         Width: =152
         X: =59
         Y: =783
-        ZIndex: =22
-
-    Label4_19 As label:
-        BorderColor: =RGBA(127, 178, 57, 1)
-        BorderThickness: =3
-        Color: =RGBA(255, 255, 255, 1)
-        Height: =125
-        Size: =21
-        Text: =""
-        Width: =211
-        X: =50
-        Y: =874
-        ZIndex: =23
-
-    Label4_20 As label:
-        BorderColor: =RGBA(127, 178, 57, 1)
-        BorderThickness: =3
-        Color: =RGBA(255, 255, 255, 1)
-        Height: =136
-        Size: =21
-        Text: =""
-        Width: =211
-        X: =342
-        Y: =874
-        ZIndex: =24
+        ZIndex: =15
 
     Image7 As image:
         Height: =96
@@ -198,15 +174,15 @@
         Width: =98
         X: =62
         Y: =215
-        ZIndex: =25
+        ZIndex: =16
 
     Image7_2 As image:
         Height: =96
         Image: =image
         Width: =98
         X: =274
-        Y: =218
-        ZIndex: =26
+        Y: =215
+        ZIndex: =17
 
     Label4_11 As label:
         BorderColor: =RGBA(127, 178, 57, 1)
@@ -216,7 +192,78 @@
         Size: =21
         Text: =""
         Width: =105
-        X: =271
-        Y: =217
-        ZIndex: =27
+        X: =270
+        Y: =214
+        ZIndex: =18
+
+    Image12 As image:
+        Height: =174
+        Image: =Malwarebytes_Logo_Symbol
+        X: =473
+        Y: =172
+        ZIndex: =19
+
+    Image13 As image:
+        Height: =174
+        Image: =Mimecast_M_2015
+        Width: =120
+        X: =50
+        Y: =308
+        ZIndex: =20
+
+    Image14 As image:
+        Height: =174
+        Image: =orca_logo_white_digi
+        Width: =102
+        X: =270
+        Y: =308
+        ZIndex: =21
+
+    Image16 As image:
+        Height: =206
+        Image: ='Avast_Software_logo.svg'
+        Width: =112
+        X: =467
+        Y: =292
+        ZIndex: =22
+
+    Image17 As image:
+        Height: =224
+        Image: ='Annotation 2023-07-13 083737'
+        Width: =253
+        X: =50
+        Y: =835
+        ZIndex: =23
+
+    Label4_20 As label:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        BorderThickness: =3
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =150
+        Size: =21
+        Text: =""
+        Width: =253
+        X: =50
+        Y: =872
+        ZIndex: =24
+
+    Image19 As image:
+        Height: =259
+        Image: ='Annotation 2023-07-13 084024'
+        Width: =253
+        X: =346
+        Y: =817
+        ZIndex: =25
+
+    Label4_19 As label:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        BorderThickness: =3
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =149
+        Size: =21
+        Text: =""
+        Width: =253
+        X: =346
+        Y: =872
+        ZIndex: =26
 
