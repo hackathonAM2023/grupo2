@@ -11,12 +11,65 @@ creditos As screen:
         Width: =640
         ZIndex: =8
 
-    Rectangle6_10 As rectangle:
-        BorderColor: =RGBA(127, 178, 57, 1)
-        BorderThickness: =9
-        Fill: =RGBA(0, 0, 0, 0)
+    Image7_3 As image:
+        Height: =70
+        Image: ='2919600'
+        Width: =70
+        X: =552
+        Y: =14
+        ZIndex: =10
+
+    Image11_1 As image:
         Height: =99
-        Width: =640
-        Y: =1037
-        ZIndex: =9
+        Image: ='descarga (1)'
+        Width: =80
+        X: =30
+        Y: =116
+        ZIndex: =11
+
+    Label8 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Lato Black'
+        Height: =70
+        Size: =40
+        Text: ="CREDITS"
+        Width: =560
+        X: =30
+        Y: =14
+        ZIndex: =12
+
+    Label9 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =503
+        Size: =30
+        Text: ="This App was created with the purpose of recommending and helping people to avoid information theft through the Internet. Creating bots to give the tips of different types of antivirus, depending on the approach to the problem."
+        Width: =560
+        X: =40
+        Y: =245
+        ZIndex: =13
+
+    Label10 As label:
+        Align: =Align.Center
+        Color: =RGBA(0, 134, 208, 1)
+        Height: =70
+        Size: =30
+        Text: |-
+            ="BY: NetSafe"
+        Width: =560
+        X: =40
+        Y: =778
+        ZIndex: =14
+
+    Icon7_5 As icon.Leave:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        Color: =RGBA(56, 96, 178, 1)
+        Height: =70
+        Icon: =Icon.Leave
+        OnSelect: =Navigate(bots,ScreenTransition.Fade)
+        Width: =55
+        X: =11
+        Y: =14
+        ZIndex: =15
 
