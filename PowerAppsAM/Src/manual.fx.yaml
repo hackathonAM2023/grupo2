@@ -1,4 +1,4 @@
-"Screen9 As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+"manual As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
 
     Image6_1 As image:
         Height: =1136
@@ -33,7 +33,7 @@
         Height: =50
         Icon: =Icon.Search
         Width: =52
-        X: =29
+        X: =569
         Y: =30
         ZIndex: =5
 
@@ -41,9 +41,10 @@
         Color: =RGBA(241, 244, 249, 1)
         Height: =49
         Icon: =Icon.Undo
+        OnSelect: =Navigate(comienzo,ScreenTransition.Fade)
         Width: =54
-        X: =566
-        Y: =30
+        X: =19
+        Y: =25
         ZIndex: =6
 
     Label4_8 As label:
@@ -53,8 +54,8 @@
         Height: =99
         Size: =21
         Text: =""
-        Width: =124
-        X: =50
+        Width: =105
+        X: =59
         Y: =214
         ZIndex: =7
 
@@ -128,18 +129,6 @@
         Y: =214
         ZIndex: =16
 
-    Label4_17 As label:
-        BorderColor: =RGBA(127, 178, 57, 1)
-        BorderThickness: =3
-        Color: =RGBA(255, 255, 255, 1)
-        Height: =99
-        Size: =21
-        Text: =""
-        Width: =124
-        X: =261
-        Y: =217
-        ZIndex: =17
-
     Label4_13 As label:
         Align: =Align.Center
         BorderColor: =RGBA(127, 178, 57, 1)
@@ -202,4 +191,32 @@
         X: =342
         Y: =874
         ZIndex: =24
+
+    Image7 As image:
+        Height: =96
+        Image: =unnamed
+        Width: =98
+        X: =62
+        Y: =215
+        ZIndex: =25
+
+    Image7_2 As image:
+        Height: =96
+        Image: =image
+        Width: =98
+        X: =274
+        Y: =218
+        ZIndex: =26
+
+    Label4_11 As label:
+        BorderColor: =RGBA(127, 178, 57, 1)
+        BorderThickness: =3
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =99
+        Size: =21
+        Text: =""
+        Width: =105
+        X: =271
+        Y: =217
+        ZIndex: =27
 

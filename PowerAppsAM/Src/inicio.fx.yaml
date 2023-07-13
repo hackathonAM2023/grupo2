@@ -1,6 +1,14 @@
 inicio As screen:
     Fill: =RGBA(3, 3, 41, 1)
 
+    Image1_1 As image:
+        Height: =1135
+        Image: ='Diseño sin título (1)'
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        Y: =1
+        ZIndex: =1
+
     Image9 As image:
         Height: =428
         Image: ='descarga (1)'
@@ -11,15 +19,11 @@ inicio As screen:
         Y: =377
         ZIndex: =2
 
-    Label9 As label:
-        Align: =Align.Center
-        Color: =RGBA(255, 255, 255, 1)
-        Font: =Font.'Lato Black'
-        Height: =169
-        Size: =80
-        Text: ="NetSafe"
-        Width: =444
-        X: =98
-        Y: =208
-        ZIndex: =3
+    Image4_1 As image:
+        Height: =162
+        Image: ='Proyecto nuevo (1)_1'
+        Width: =397
+        X: =121
+        Y: =215
+        ZIndex: =4
 

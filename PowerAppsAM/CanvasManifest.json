@@ -128,15 +128,19 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "es-ES"
+    "UserLocale": "en-US"
   },
   "ScreenOrder": [
     "inicio",
     "sesion",
     "comienzo",
     "bots",
-    "Screen9",
+    "chat1",
+    "chat2",
+    "chat3",
+    "chat4",
+    "manual",
     "creditos",
-    "bots 2"
+    "ejemplo de chat"
   ]
 }

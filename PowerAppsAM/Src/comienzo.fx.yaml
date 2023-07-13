@@ -79,22 +79,11 @@ comienzo As screen:
         BorderColor: =RGBA(255, 255, 255, 1)
         Height: =73
         Size: =21
-        Text: ="¡Welcome!"
+        Text: ="Welcome!"
         Width: =259
         X: =156
         Y: =170
         ZIndex: =10
-
-    Label12 As label:
-        Color: =RGBA(255, 255, 255, 1)
-        Font: =Font.'Lato Black'
-        Height: =59
-        Size: =50
-        Text: ="NetSafe"
-        Width: =356
-        X: =156
-        Y: =19
-        ZIndex: =11
 
     Image7_1 As image:
         Height: =70
@@ -103,4 +92,11 @@ comienzo As screen:
         X: =552
         Y: =14
         ZIndex: =12
+
+    Image4_2 As image:
+        Height: =99
+        Image: ='Proyecto nuevo (1)_1'
+        Width: =446
+        X: =86
+        ZIndex: =13
 
