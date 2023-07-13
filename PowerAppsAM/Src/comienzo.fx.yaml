@@ -31,6 +31,7 @@ comienzo As screen:
         Color: =RGBA(255, 255, 255, 1)
         Height: =35
         Icon: =Icon.Hamburger
+        OnSelect: =Navigate(creditos,ScreenTransition.Fade)
         Width: =50
         X: =17
         Y: =31
@@ -40,27 +41,9 @@ comienzo As screen:
         Height: =139
         Image: ='descarga (1)'
         Width: =144
-        X: =457
-        Y: =137
+        X: =480
+        Y: =143
         ZIndex: =8
-
-    Image5 As image:
-        Height: =320
-        Image: ='Proyecto nuevo (3)'
-        Width: =343
-        X: =114
-        Y: =46
-        ZIndex: =9
-
-    Label4 As label:
-        BorderColor: =RGBA(255, 255, 255, 1)
-        Height: =73
-        Size: =21
-        Text: ="Welcome!"
-        Width: =259
-        X: =156
-        Y: =170
-        ZIndex: =10
 
     Image7_1 As image:
         Height: =70
@@ -94,4 +77,15 @@ comienzo As screen:
         X: =160
         Y: =596
         ZIndex: =15
+
+    Label11 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =159
+        Size: =15
+        Text: ="Welcome to NetSafe!, here you will find options where you can consult with our bots about tips, apps and videos on how to avoid personal information theft or search for them by yourself in our application"
+        Width: =387
+        X: =93
+        Y: =161
+        ZIndex: =17
 
